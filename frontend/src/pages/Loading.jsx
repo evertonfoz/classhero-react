@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from '../styles/loading.module.css';
+import styles from '../../styles/loading.module.css';
 
-import logo1 from '../assets/logos/logo_001.png';
-import logo2 from '../assets/logos/logo_002.png';
-import logo3 from '../assets/logos/logo_003.png';
+import logo1 from '../../assets/logos/logo_001.png';
+import logo2 from '../../assets/logos/logo_002.png';
+import logo3 from '../../assets/logos/logo_003.png';
 
 const logos = [logo1, logo2, logo3];
 
